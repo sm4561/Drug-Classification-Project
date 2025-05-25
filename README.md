@@ -5,9 +5,9 @@ ML project to classify drugs using patient data
 
 ##  Submitted by:
 **Shubham Mishra** 
-Annu Kumar
-Saksham Kumar
-Suraj Tiwari
+  Annu Kumar
+  Saksham Kumar
+  Suraj Tiwari
 
 B.Tech CSE, Semester IV  
 Galgotias University
