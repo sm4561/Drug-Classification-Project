@@ -4,7 +4,7 @@ ML project to classify drugs using patient data
 # 💊 Drug Classification - Machine Learning Project
 
 ##  Submitted by:
-**Shubham Mishra,**
+**Shubham Mishra(Admin),**
   Annu Kumar,
   Saksham Kumar
   and Suraj Tiwari
