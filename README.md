@@ -1,22 +1,19 @@
-# Drug-Classification-Project
-ML project to classify drugs using patient data
+# 📊 Drug Classification Dashboard – Power BI Project (Review 2)
 
-# 💊 Drug Classification - Machine Learning Project
-
-##  Submitted by:
-**Shubham Mishra(Admin),**
-  Annu Kumar,
-  Saksham Kumar
-  and Suraj Tiwari
+## ✅ Submitted by:
+**Shubham Mishra (Admin),**  
+Annu Kumar,  
+Saksham Kumar,  
+Suraj Tiwari  
 
 B.Tech CSE, Semester IV  
-Galgotias University
+Galgotias University  
 
 ---
 
-## 🧠 Project Objective
+## 🎯 Project Objective
 
-The goal is to classify drugs based on patient features using machine learning. The classification is done using patient attributes:
+The aim of this dashboard is to visualize and interpret patterns in drug prescriptions using patient data such as:
 
 - Age
 - Sex
@@ -24,9 +21,11 @@ The goal is to classify drugs based on patient features using machine learning. 
 - Cholesterol level
 - Sodium to Potassium ratio (Na_to_K)
 
+Unlike Review 1 (ML-based classification), this phase focuses on **interactive visual storytelling** using **Power BI**.
+
 ---
 
-## 🔍 Dataset
+## 📁 Dataset
 
 - File: `drug200.csv`
 - Records: 200
@@ -35,81 +34,71 @@ The goal is to classify drugs based on patient features using machine learning. 
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies Used
 
-- Python
-- Jupyter Notebook
-- pandas, numpy
-- seaborn, matplotlib
-- scikit-learn
-
----
-
-## 📊 Workflow Summary
-
-### 1. Data Cleaning
-- Checked for missing values
-- Removed duplicate rows
-
-### 2. Preprocessing
-- Categorical encoding (Sex, BP, Cholesterol)
-- Outlier capping using 95th percentile
-- Feature scaling using `StandardScaler`
-
-### 3. Exploratory Data Analysis (EDA)
-- Heatmap of correlations
-- Boxplot to visualize outliers
-- Countplot of drug class distribution
-- Pairplot for feature relationships
-
-### 4. Model Building
-- Used `RandomForestClassifier`
-- Split: 70% training, 30% testing
-- Stratified to ensure class balance
-
-### 5. Evaluation Metrics
-- Accuracy Score
-- Confusion Matrix
-- Classification Report (Precision, Recall, F1)
-- Feature Importance Chart
+- **Power BI Desktop**
+- CSV Data Import
+- Data Transformation using Power Query
+- DAX for calculated columns (if used)
+- Slicers and Tooltips for interactivity
 
 ---
 
-## 📈 Output Example
+## 📊 Dashboard Components
 
-- ✅ Accuracy: ~100% (on stratified sample)
-- 🔬 Key Insight: `Na_to_K` and `BP` strongly influence drug prediction
-- 🧠 Most important feature: `Na_to_K`
+| Visual | Description |
+|--------|-------------|
+| Bar Chart | Drug prescription count distribution |
+| Pie Chart | Gender distribution |
+| Box Plot | Na_to_K distribution across drugs |
+| Scatter Plot | Age vs Na_to_K, colored by drug class |
+| Text Box | Summary of key insights |
 
 ---
 
-## 📂 Project Files
+## 🎛️ Interactive Features
+
+### ✅ Slicers (Filters)
+- Sex (Male / Female)
+- Blood Pressure (LOW / NORMAL / HIGH)
+- Cholesterol (NORMAL / HIGH)
+
+> These allow filtering all visuals dynamically.
+
+### 💬 Tooltips
+- Enabled on scatter and bar charts
+- Provide hover info like Age, BP, Cholesterol, Na_to_K, and Drug
+
+---
+
+## 🔍 Key Insights Displayed
+
+- `Na_to_K` has the highest impact on drug classification
+- Most patients with high Na_to_K are prescribed **DrugY**
+- Drug prescription pattern varies slightly by gender and BP
+- Scatter plot reveals clusters based on Na_to_K and age
+
+---
+
+## 📁 Project Files
 
 | File | Description |
 |------|-------------|
-| `drug_classification.ipynb` | Full code with comments and outputs |
-| `drug200.csv` | Dataset file used |
-| `README.md` | This project summary file |
-| `presentation.pptx` | Final presentation for review submission |
+| `drug_classification_dashboard.pbix` | Main Power BI file |
+| `drug200.csv` | Dataset file |
+| `README.md` | This project summary |
+| `presentation.pptx` | Final review presentation |
 
 ---
 
-## 🚀 How to Run This Project (Step-by-Step)
+## 🧭 How to Use the Dashboard
 
-You can run this project on your local system using **Jupyter Notebook** or online using **Google Colab**.
+1. Open `Review2_Drug_Visualization.pbix` in Power BI Desktop.
+2. Use the slicers to filter data by `Sex`, `BP`, or `Cholesterol`.
+3. Hover over charts to view detailed insights.
+4. If multiple pages are added, navigate using tabs or page navigation buttons.
 
 ---
-
-### 🧪 Option 1: Run in Jupyter Notebook
-
-1. Download the repository as ZIP from GitHub and extract it.
-2. Make sure these files are present in the same folder:
-   - `drug_classification.ipynb`
-   - `drug200.csv`
-3. Open **Jupyter Notebook** and launch the notebook:
-   ```bash
-   jupyter notebook
-
 
 ## 👥 Team Members
 
@@ -120,9 +109,10 @@ You can run this project on your local system using **Jupyter Notebook** or onli
 
 ---
 
-##  Acknowledgement
+## 🏁 Acknowledgement
 
-This project was created as part of **Data Analytics Review Submission** at Galgotias University.
+This is Review 2 of the **Drug Classification Project**, focused on interactive dashboards, submitted as part of the **Data Analytics Evaluation** at Galgotias University under GUVI's review structure.
 
 Thanks for reviewing!  
 — **Shubham Mishra**
+
