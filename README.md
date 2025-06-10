@@ -84,7 +84,7 @@ Unlike Review 1 (ML-based classification), this phase focuses on **interactive v
 
 | File | Description |
 |------|-------------|
-| `drug_classification_dashboard.pbix` | Main Power BI file |
+| `Review2_Drug_Visualization.pbix` | Main Power BI file |
 | `drug200.csv` | Dataset file |
 | `README.md` | This project summary |
 | `presentation.pptx` | Final review presentation |
